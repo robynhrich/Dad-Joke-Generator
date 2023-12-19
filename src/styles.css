@@ -2,12 +2,18 @@
   --main-font-family: "Rubik Doodle Shadow";
   --secondary-font-family: "Rubik Scribble";
 }
+
+body {
+  background: black;
+}
 h1 {
   font-family: var(--main-font-family);
+  color: white;
 }
 
 h2 {
   font-family: var(--secondary-font-family);
+  color: white;
 }
 
 img {
@@ -16,12 +22,14 @@ img {
 }
 
 .joke-button {
-  display: block;
   text-align: center;
   background-color: red;
   font-family: var(--main-font-family);
+  font-size: 60px;
 }
 
 .joke {
   font-family: var(--secondary-font-family);
+  color: white;
+  font-size: 40px;
 }
