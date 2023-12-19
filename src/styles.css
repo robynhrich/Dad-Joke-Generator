@@ -1,0 +1,27 @@
+:root {
+  --main-font-family: "Rubik Doodle Shadow";
+  --secondary-font-family: "Rubik Scribble";
+}
+h1 {
+  font-family: var(--main-font-family);
+}
+
+h2 {
+  font-family: var(--secondary-font-family);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.joke-button {
+  display: block;
+  text-align: center;
+  background-color: red;
+  font-family: var(--main-font-family);
+}
+
+.joke {
+  font-family: var(--secondary-font-family);
+}
